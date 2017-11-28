@@ -1,0 +1,9 @@
+@import "base/base";
+.mine-list { padding: 15px; 
+font-size: $midFont;
+  li { border: 1px solid #ccc; margin: -1px 0;}
+  a { display: block; padding: 10px; line-height: 30px;}
+}
+.red-btn { @include button();}
+
+

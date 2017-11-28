@@ -1,0 +1,21 @@
+@import "base/base";
+.login-list { padding: 15px; font-size: $midFont}
+
+.login-item {
+  overflow: hidden;
+  margin: 2px 0;
+
+  .text { background: #fff;display: block; width: 100%; border-radius: 4px; height: 44px; text-indent: 8px;
+  }
+}
+.code-item { display: flex}
+.mobile-code { flex: 1}
+.get-code {width: 80px; background:$lightenRed; color: #fff}
+.checkbox-item { padding-top: 20px; padding-left: 10px; display: flex;justify-content: space-between }
+.forget { color: $redColor;}
+
+.reg-btn { @include button(44px,#5f5f5f,#222)}
+.login-btn,.red-btn { @include button(); margin-top: 10px;}
+
+
+.err-alert{ height: 30px;line-height: 30px; color:$redColor;text-align: center;display: none}

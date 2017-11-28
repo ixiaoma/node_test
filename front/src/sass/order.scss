@@ -1,0 +1,42 @@
+@import "base/base.scss";
+.order-section{
+    .item-header { padding: 10px; font-size: $midFont;}
+}
+
+.order-item {
+    padding: 10px 5px;
+    border: 1px solid #ccc;
+    margin-top: -1px;
+    display: flex;
+    img { width: 100px; height: 100px;}
+    .info {padding-left: 10px; flex: 1; line-height: 20px;}
+    .number { width: 50px; text-align: center; line-height: 30px;}
+}
+.item-footer{
+    padding: 5px;
+     border-bottom: 1px solid #ccc;
+     line-height: 30px;
+    
+     display: flex; justify-content: space-between;
+    span { padding: 5px 10px;}
+    
+}
+.order-container { background-color: #eee}
+.order-section { background-color: #fff; margin-bottom: 10px;}
+.order-btn {border: 1px solid #ccc; padding: 5px 10px;; border-radius: 5px; }
+.tab-bar {background: #ccc; position: fixed; top: 45px; left: 0; width: 100%; height: 35px; line-height: 35px;
+    ul { white-space: nowrap; width: 100%;}
+    li { width: 20%; float: left; text-align: center;}
+    .active { color:#f52}
+}
+.order-footer{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: $bigFont;
+    .orderbtn {
+        display:block; height: 100%; width: 100px; background-color: red; color: #fff
+    }
+}

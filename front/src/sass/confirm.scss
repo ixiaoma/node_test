@@ -1,0 +1,26 @@
+@import "base/base.scss";
+//#confirm-page{display: flex;flex-direction: column}
+.content{flex: 1;
+    padding-top: 110px!important;
+.receiveMsg{
+    position: fixed;
+    overflow: hidden;
+    line-height: 80px;
+    top: 44px;
+    width: 100%;
+    background: #fff;
+    left: 0;height:80px;padding: 10px;
+    li{height: 20px;line-height: 20px;font-size: $midFont}};
+    .p_name{width: 180px;overflow: hidden};
+    .order-item{display: flex;justify-content:space-between;align-items:center;padding:0 30px 0 10px;border-bottom:1px dotted $footerBg;img{width: 2rem;height: 2rem}}}
+.order-footer{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: $bigFont;
+    .order-btn {
+        display:block; height: 100%; width: 100px; background-color: red; color: #fff
+    }
+}

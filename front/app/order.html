@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>Title</title>
+
+  
+
+    <link href="css/public.css" rel="stylesheet" />
+    <link href="css/order.css" rel="stylesheet" />
+    <script src="js/rem.js"></script>
+
+   
+
+</head>
+<body>
+<div class="page" id="confirm-page">
+    <div class="header">
+        <ul>
+            <li class="header-btn"><a style="" class="go-back iconfont" href="javascript:window.history.go(-1);"><</a>
+            </li>
+            <li  class="header-tit">我的订单</li>
+          
+            
+        </ul>
+    </div>
+    <div class="sub-header tab-bar">
+        <ul class="state_btn">
+            <li class="active">全部</li>
+            <li>未付款</li>
+            <li>已付款</li>
+            <li>待评价</li>
+            <li>已完成</li>
+        </ul>
+    </div>
+
+  
+    
+    <div class="content">
+    </div>
+    <div class="order-footer footer">
+            <p><span>订单合计:</span>
+            <span class="all_price"></span></p>
+            <button class="orderbtn">去支付</button>
+        </div>
+</div>
+ <script data-main="js/order" src="js/libs/require.js"></script>
+
+</body>
+</html>
